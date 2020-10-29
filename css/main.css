@@ -10,9 +10,20 @@ header {
 	z-index: 999;
 	top: 0px;
 }
+.headerdiv {
+	padding: 0 150px 0 150px;
+}
 .container {
 	padding-top: 103px;
+    width: 100%;
+    background-color: #fcfcfc;
+    max-width: 1118px;
+    margin: 50px auto;
+    height: 1000px;
 
+}
+.navbar {
+	max-width: 1118px;
 }
 .navbar-li {
 	display: inline-block;
@@ -46,9 +57,66 @@ header {
 }
 .pos-text {
 	position: absolute;
-	color: black;
+	color: white;
 	font-size: 12px;
-	top: 17px;
+	top: 50px;
 	float: right;
 	display: inline-block;
+	right: 205px;
+}
+.pos-img {
+	width: 1140px;
+	height: 300px;
+}
+.pos-text2 {
+	position: absolute;
+	color: #5E8A93;
+	font-size: 12px;
+	top: 38px;
+	right: 80px;
+	float: right;
+	display: inline-block;
+	background-color: #FCFCFC;
+	border-radius: 50px;
+	padding: 10px;
+}
+.pos-text3 {
+	position: absolute;
+	color: white;
+	font-size: 15px;
+	top: 50px;
+	float: left;
+	display: inline-block;
+	left: 60px;
+}
+.pos-text4 {
+	position: absolute;
+	color: white;
+	font-size: 32px;
+	top: 80px;
+	float: left;
+	left: 60px;
+	display: inline-block;
+}
+.pos-text5 {
+	position: absolute;
+	color: white;
+	font-size: 15px;
+	top: 135px;
+	float: left;
+	left: 60px;
+	display: inline-block;
+}
+.pos-text6 {
+	position: absolute;
+	color: white;
+	font-size: 17px;
+	top: 193px;
+	float: left;
+	left: 60px;
+	display: inline-block;
+	background-color: #6294A2;
+	border-radius: 50px;
+	padding: 10px;
+
 }
